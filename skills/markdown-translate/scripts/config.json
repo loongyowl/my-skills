@@ -1,0 +1,20 @@
+{
+  "apis": {
+    "deepseek": {
+      "api_key": "sk-bd49a142137a46b39a38a860dcfc5006",
+      "base_url": "https://api.deepseek.com/v1",
+      "model": "deepseek-chat"
+    },
+    "openai": {
+      "base_url": "https://api.openai.com/v1",
+      "model": "gpt-4o",
+      "api_key": ""
+    },
+    "custom": {
+      "api_key": "",
+      "base_url": "https://api.deepseek.com/v1",
+      "model": "deepseek-chat"
+    }
+  },
+  "last_used": "deepseek"
+}

@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updated": "2026-04-19T10:45:25.738296",
+  "updated": "2026-04-19T16:51:01.272785",
   "skills": {
     "docx": {
       "name": "docx",
@@ -12,6 +12,13 @@
       ],
       "license": "Proprietary",
       "path": "skills/docx"
+    },
+    "markdown-translate": {
+      "name": "markdown-translate",
+      "description": "批量翻译 Markdown 文件，保持格式完整，支持多 API (DeepSeek/OpenAI/自定义)，断点续传，Tkinter 可视化界面。",
+      "tags": [],
+      "license": "MIT",
+      "path": "skills/markdown-translate"
     },
     "xlsx": {
       "name": "xlsx",
