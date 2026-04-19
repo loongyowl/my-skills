@@ -1,0 +1,191 @@
+<!-- Module 1: 当情绪来袭 -->
+<section class="module" id="module-1">
+  <div class="module-content">
+    <!-- Screen 1: Opening -->
+    <div class="screen">
+      <div class="module-header">
+        <div class="module-number">模块 1</div>
+        <h1 class="module-title">当情绪来袭</h1>
+        <p class="module-intro">从熟悉的生活场景出发，理解情绪是如何在我们身上展开的。</p>
+      </div>
+    </div>
+
+    <!-- Screen 2: The Scenario -->
+    <div class="screen">
+      <h2 class="screen-title">一个熟悉的场景</h2>
+
+      <div class="card">
+        <p>想象一下这个场景：</p>
+        <p>你辛苦工作了一整天，终于完成了一个重要项目。你满怀期待地把成果发给上司，希望得到认可。</p>
+
+        <p>一小时后，回复来了：</p>
+
+        <blockquote style="background: var(--color-bg-warm); padding: 1.5rem; border-radius: 8px; font-style: italic; border-left: 4px solid var(--color-accent);">
+          "这个还需要大改。周五之前重新给我。"
+        </blockquote>
+
+        <p><strong>此刻，你的身体有什么感觉？</strong></p>
+
+        <ul style="margin-left: 1.5rem; color: var(--color-text-secondary);">
+          <li>胸口发紧？</li>
+          <li>心跳加速？</li>
+          <li>脸部发热？</li>
+          <li>或者...一种麻木的空洞感？</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Screen 3: Emotion Flow Animation -->
+    <div class="screen">
+      <h2 class="screen-title">情绪的波浪</h2>
+
+      <p>让我们看看从收到消息到情绪反应，发生了什么：</p>
+
+      <div class="emotion-flow"
+           data-steps='[
+             {"actor": "trigger", "label": "触发事件", "description": "收到上司的简短回复", "icon": "📧"},
+             {"actor": "body", "label": "身体感受", "description": "胸口发紧、心跳加速、肌肉紧绷", "icon": "💓"},
+             {"actor": "emotion", "label": "情绪", "description": "失望、愤怒、焦虑、羞耻", "icon": "😤"},
+             {"actor": "thought", "label": "思维", "description": "\"我不够好\"、\"他不尊重我\"、\"我要被解雇了\"", "icon": "💭"},
+             {"actor": "urge", "label": "冲动", "description": "想立即回复辩解、想辞职、想哭泣", "icon": "⚡"},
+             {"actor": "response", "label": "反应", "description": "愤怒地回复邮件、向朋友抱怨、失眠", "icon": "📤"}
+           ]'>
+
+        <div class="flow-header">
+          <p>观察情绪如何从触发到反应的完整过程</p>
+        </div>
+
+        <div class="flow-visualization">
+          <div class="flow-track"></div>
+          <div class="flow-nodes"></div>
+          <div class="flow-particle"></div>
+        </div>
+
+        <div class="flow-explanation">
+          <div class="explanation-step" data-step="0">
+            <h5>触发事件</h5>
+            <p>外部事件启动了整个链条。这个事件本身是中性的，是我们的解读赋予了它意义。</p>
+          </div>
+          <div class="explanation-step" data-step="1">
+            <h5>身体感受</h5>
+            <p>身体是最先反应的。觉察这些信号是打断自动化反应的关键。</p>
+          </div>
+          <div class="explanation-step" data-step="2">
+            <h5>情绪</h5>
+            <p>情绪是身体感受的标签。命名情绪可以降低它的强度。</p>
+          </div>
+          <div class="explanation-step" data-step="3">
+            <h5>思维</h5>
+            <p>大脑开始编织故事。注意：这些想法不一定是事实！</p>
+          </div>
+          <div class="explanation-step" data-step="4">
+            <h5>冲动</h5>
+            <p>强烈的行动倾向。这是<strong>反应</strong>和<strong>回应</strong>之间的临界点。</p>
+          </div>
+          <div class="explanation-step" data-step="5">
+            <h5>反应</h5>
+            <p>自动化的行为。如果我们能在冲动阶段暂停，就能选择更智慧的回应。</p>
+          </div>
+        </div>
+
+        <div class="flow-controls">
+          <button class="btn btn-primary flow-play">▶️ 播放过程</button>
+          <div class="flow-progress">
+            <div class="progress-bar"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Screen 4: Aha Moment -->
+    <div class="screen">
+      <div class="callout callout-aha">
+        <div class="callout-icon">💡</div>
+        <div class="callout-content">
+          <h4>Aha! 时刻</h4>
+          <p><strong>你不是你的情绪。</strong>你是那个能够观察情绪的人。</p>
+          <p class="callout-subtext">情绪会来也会走，但那个觉察的"你"始终在那里。</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Screen 5: Quiz -->
+    <div class="screen">
+      <div class="scenario-quiz" data-quiz-id="body-awareness">
+        <div class="scenario-header">
+          <span class="scenario-badge">小测验</span>
+          <h4>你的身体信号</h4>
+        </div>
+
+        <div class="scenario-narrative">
+          <p>回想一下你最近一次感到强烈情绪的时刻。</p>
+          <p class="scenario-question">在那个时刻，你最先注意到的是什么？</p>
+        </div>
+
+        <div class="scenario-options">
+          <button class="scenario-option" data-pattern="thoughts">
+            <span class="option-icon">💭</span>
+            <span class="option-text">我脑子里的想法</span>
+          </button>
+
+          <button class="scenario-option" data-pattern="body">
+            <span class="option-icon">💓</span>
+            <span class="option-text">我身体的感受</span>
+          </button>
+
+          <button class="scenario-option" data-pattern="emotion">
+            <span class="option-icon">😤</span>
+            <span class="option-text">我的情绪（愤怒、悲伤等）</span>
+          </button>
+
+          <button class="scenario-option" data-pattern="none">
+            <span class="option-icon">❓</span>
+            <span class="option-text">我什么都没注意到</span>
+          </button>
+        </div>
+
+        <div class="scenario-feedback-container">
+          <div class="feedback" data-for="thoughts">
+            <div class="feedback-header">
+              <span class="feedback-pattern">思维导向</span>
+            </div>
+            <p>你倾向于从思维层面体验情绪。这是很多人的默认模式。</p>
+            <div class="feedback-insight">
+              <p><strong>觉察点：</strong>试着在下次情绪升起时，先问自己："我身体哪里感到紧绷？"这能帮你建立新的觉察通道。</p>
+            </div>
+          </div>
+
+          <div class="feedback" data-for="body">
+            <div class="feedback-header">
+              <span class="feedback-pattern">身体觉察</span>
+            </div>
+            <p>很好！你已经有身体觉察的习惯。这是最快速、最可靠的情绪信号。</p>
+            <div class="feedback-insight">
+              <p><strong>觉察点：</strong>继续培养这个能力。身体感受比思维更接近情绪的源头。</p>
+            </div>
+          </div>
+
+          <div class="feedback" data-for="emotion">
+            <div class="feedback-header">
+              <span class="feedback-pattern">情绪觉察</span>
+            </div>
+            <p>你能识别自己的情绪状态。这是<span class="glossary-term" data-term="emotional-awareness">情绪觉察</span>的重要一步。</p>
+            <div class="feedback-insight">
+              <p><strong>觉察点：</strong>试着在命名情绪之前，先回到身体感受。这能让你更 grounded。</p>
+            </div>
+          </div>
+
+          <div class="feedback" data-for="none">
+            <div class="feedback-header">
+              <span class="feedback-pattern">自动化反应</span>
+            </div>
+            <p>完全正常！这说明你的反应是自动化的，在意识到之前就已经行动了。</p>
+            <div class="feedback-insight">
+              <p><strong>觉察点：</strong>这就是为什么我们需要练习。觉察是一种可以培养的能力，从后知后觉，到当知当觉，再到先知先觉。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,5 +1,5 @@
 ---
-name: Obsidian内容大脑Skill
+name: Content Brain 内容大脑Skill
 description: "这是一个完整的个人知识创作系统。它以Obsidian为载体，通过AI持续维护一个结构化、可生长的内容资产库"
 license: MIT
 ---

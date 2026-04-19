@@ -1,9 +1,9 @@
 {
   "version": "1.0.0",
-  "updated": "2026-04-19T19:56:51.235805",
+  "updated": "2026-04-19T20:11:42.914143",
   "skills": {
-    "Obsidian内容大脑Skill": {
-      "name": "Obsidian内容大脑Skill",
+    "Content Brain 内容大脑Skill": {
+      "name": "Content Brain 内容大脑Skill",
       "description": "这是一个完整的个人知识创作系统。它以Obsidian为载体，通过AI持续维护一个结构化、可生长的内容资产库",
       "tags": [],
       "license": "MIT",
@@ -45,13 +45,6 @@
       "license": "MIT",
       "path": "skills/markdown-translate"
     },
-    "obsidian-skills": {
-      "name": "obsidian-skills",
-      "description": "Use this skill when working with obsidian-skills.",
-      "tags": [],
-      "license": "MIT",
-      "path": "skills/obsidian-skills"
-    },
     "pdf-to-markdown": {
       "name": "pdf-to-markdown",
       "description": "将 PDF 文件转换为 Markdown 格式。支持原生文本 PDF（OpenDataLoader PDF）和扫描版 PDF（RapidOCR 离线 OCR）。可单文件或批量转换，适合导入 Obsidian 知识库或喂给 AI/RAG 系统。",
@@ -65,6 +58,13 @@
       "tags": [],
       "license": "MIT",
       "path": "skills/skill-packager"
+    },
+    "wisdom-to-course": {
+      "name": "wisdom-to-course",
+      "description": "将佛教、哲学、心理学、人际沟通等领域的智慧转化为交互式HTML学习课程。帮助用户通过互动体验提升内心觉察、情绪管理和行为有效性。当用户想要学习情绪管理、改善人际关系、提升自我认知、或理解某个哲学/心理学概念时触发此技能。",
+      "tags": [],
+      "license": "MIT",
+      "path": "skills/wisdom-to-course"
     },
     "xlsx": {
       "name": "xlsx",
