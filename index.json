@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-04-19T10:45:25.738296",
+  "skills": {
+    "docx": {
+      "name": "docx",
+      "description": "Use this skill for Word document operations: create, edit, and format .docx files",
+      "tags": [
+        "word",
+        "document",
+        "office"
+      ],
+      "license": "Proprietary",
+      "path": "skills/docx"
+    },
+    "xlsx": {
+      "name": "xlsx",
+      "description": "Use this skill for spreadsheet operations: create, edit, analyze Excel files with formulas and formatting",
+      "tags": [
+        "excel",
+        "spreadsheet",
+        "data"
+      ],
+      "license": "Proprietary",
+      "path": "skills/xlsx"
+    }
+  }
+}
