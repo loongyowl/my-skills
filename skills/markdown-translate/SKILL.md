@@ -36,7 +36,7 @@ python skills/markdown-translate/scripts/app.py
 翻译后:   books/meditations.translated.md
 ```
 
-## 文件结构
+##  # Search for a skillskills-cli search <keyword>​# Install a skillskills-cli install <skill-name>bash
 
 | 文件 | 用途 |
 |------|------|

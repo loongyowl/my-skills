@@ -1,6 +1,7 @@
 ---
 name: skill-packager
 description: "统一不同来源skills的格式，确保安装后可直接使用。当用户需要审核、标准化、打包来自不同AI智能体的skills时使用。触发词：skill审核、skill标准化、skill打包、skills格式统一、skill补全依赖。"
+license: MIT
 ---
 
 # Skill Packager

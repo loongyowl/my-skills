@@ -1,7 +1,14 @@
 {
   "version": "1.0.0",
-  "updated": "2026-04-19T16:51:01.272785",
+  "updated": "2026-04-19T19:56:51.235805",
   "skills": {
+    "Obsidian内容大脑Skill": {
+      "name": "Obsidian内容大脑Skill",
+      "description": "这是一个完整的个人知识创作系统。它以Obsidian为载体，通过AI持续维护一个结构化、可生长的内容资产库",
+      "tags": [],
+      "license": "MIT",
+      "path": "skills/content-brain"
+    },
     "docx": {
       "name": "docx",
       "description": "Use this skill for Word document operations: create, edit, and format .docx files",
@@ -13,12 +20,51 @@
       "license": "Proprietary",
       "path": "skills/docx"
     },
+    "Markdown-batch": {
+      "name": "Markdown-batch",
+      "description": "MarkItDown 批量转换工具：将 Word/PDF/PPT/Excel 批量转换为 Markdown",
+      "tags": [
+        "markdown",
+        "convert",
+        "batch"
+      ],
+      "license": "MIT",
+      "path": "skills/Markdown-batch"
+    },
+    "markdown-cleaner": {
+      "name": "markdown-cleaner",
+      "description": "Markdown 文件清洗工具。用于处理被错误断行的 Markdown 文件，删除图片引用，合并断行段落。触发词：清洗markdown、markdown排版、删除图片、合并段落、断行修复、清理md文件",
+      "tags": [],
+      "license": "MIT",
+      "path": "skills/markdown-cleaner"
+    },
     "markdown-translate": {
       "name": "markdown-translate",
       "description": "批量翻译 Markdown 文件，保持格式完整，支持多 API (DeepSeek/OpenAI/自定义)，断点续传，Tkinter 可视化界面。",
       "tags": [],
       "license": "MIT",
       "path": "skills/markdown-translate"
+    },
+    "obsidian-skills": {
+      "name": "obsidian-skills",
+      "description": "Use this skill when working with obsidian-skills.",
+      "tags": [],
+      "license": "MIT",
+      "path": "skills/obsidian-skills"
+    },
+    "pdf-to-markdown": {
+      "name": "pdf-to-markdown",
+      "description": "将 PDF 文件转换为 Markdown 格式。支持原生文本 PDF（OpenDataLoader PDF）和扫描版 PDF（RapidOCR 离线 OCR）。可单文件或批量转换，适合导入 Obsidian 知识库或喂给 AI/RAG 系统。",
+      "tags": [],
+      "license": "MIT",
+      "path": "skills/pdf-to-markdown"
+    },
+    "skill-packager": {
+      "name": "skill-packager",
+      "description": "统一不同来源skills的格式，确保安装后可直接使用。当用户需要审核、标准化、打包来自不同AI智能体的skills时使用。触发词：skill审核、skill标准化、skill打包、skills格式统一、skill补全依赖。",
+      "tags": [],
+      "license": "MIT",
+      "path": "skills/skill-packager"
     },
     "xlsx": {
       "name": "xlsx",

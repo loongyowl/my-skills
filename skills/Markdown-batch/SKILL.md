@@ -1,3 +1,10 @@
+---
+name: Markdown-batch
+description: "MarkItDown 批量转换工具：将 Word/PDF/PPT/Excel 批量转换为 Markdown"
+tags: markdown,convert,batch
+license: MIT
+---
+
 # MarkItDown转换
 
 ## MarkItDown 工具安装与 GUI 搭建
