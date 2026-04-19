@@ -6,9 +6,9 @@ Last updated: 2026-04-19
 
 | Skill | Description | License |
 |-------|-------------|---------|
-| docx | Use this skill for Word document operations: create, edit, and format .docx file... | Proprietary |
+| docx | Use this skill for Word document operations: create, edit, and format .docx file... | MIT |
 | markdown-translate | 批量翻译 Markdown 文件，保持格式完整，支持多 API (DeepSeek/OpenAI/自定义)，断点续传，Tkinter 可视化界面。 | MIT |
-| xlsx | Use this skill for spreadsheet operations: create, edit, analyze Excel files wit... | Proprietary |
+| xlsx | Use this skill for spreadsheet operations: create, edit, analyze Excel files wit... | MIT |
 
 ## Installation
 
