@@ -1,7 +1,14 @@
 {
   "version": "1.0.0",
-  "updated": "2026-04-19T20:11:42.914143",
+  "updated": "2026-04-21T22:28:27.418843",
   "skills": {
+    "book-chapter-processor": {
+      "name": "book-chapter-processor",
+      "description": "Use this skill when working with book-chapter-processor.",
+      "tags": [],
+      "license": "MIT",
+      "path": "skills/book-chapter-processor"
+    },
     "Content Brain 内容大脑Skill": {
       "name": "Content Brain 内容大脑Skill",
       "description": "这是一个完整的个人知识创作系统。它以Obsidian为载体，通过AI持续维护一个结构化、可生长的内容资产库",
