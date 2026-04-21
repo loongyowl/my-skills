@@ -1,5 +1,8 @@
 # Skills Repository
 
+In fact, this is an automated skills update repository. Some good skills might be forgotten or lost. Storing them in this repository and keeping it updated is a good idea.
+实际上这是一个自动化更新skills的创库，一些好的skill可能会被遗忘或失落，储存到这个仓库并保持更新是一个好主意。
+
 Last updated: 2026-04-21
 
 ## Available Skills
