@@ -8,7 +8,7 @@ Last updated: 2026-04-21
 |-------|-------------|---------|
 | Content Brain 内容大脑Skill | 这是一个完整的个人知识创作系统。它以Obsidian为载体，通过AI持续维护一个结构化、可生长的内容资产库 | MIT |
 | Markdown-batch | MarkItDown 批量转换工具：将 Word/PDF/PPT/Excel 批量转换为 Markdown | MIT |
-| book-chapter-processor | Use this skill when working with book-chapter-processor. | MIT |
+| book-chapter-processor | 一个基于 React 的单页面应用，用于将精读的书籍片段加工成符合 Obsidian 审美的高保真 Markdown 笔记。 | MIT |
 | docx | Use this skill for Word document operations: create, edit, and format .docx file... | Proprietary |
 | markdown-cleaner | Markdown 文件清洗工具。用于处理被错误断行的 Markdown 文件，删除图片引用，合并断行段落。触发词：清洗markdown、markdown排版、删... | MIT |
 | markdown-translate | 批量翻译 Markdown 文件，保持格式完整，支持多 API (DeepSeek/OpenAI/自定义)，断点续传，Tkinter 可视化界面。 | MIT |
